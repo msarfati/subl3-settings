@@ -1,21 +1,19 @@
-// These settings are for non-strict use -- notice the loosening of the pep8 linter
 {
-	"color_scheme": "Packages/User/Monokai (SublimePythonIDE).tmTheme",
+	"color_scheme": "Packages/User/SolarSooty (SublimePythonIDE).tmTheme",
+	"font_size": 10,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-    "tab_size": 4,
-	"pep8": true,
-    "pep8_ignore": ["E302", "E123", "E501", "E401", "E128"],
+	"pep8_ignore":
+	[
+		"E128",
+		"E124",
+		"E501"
+	],
+	"pep8_max_line_length": 100,
 	"scroll_speed": 0.0,
+	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
-    "word_wrap": true,
-    "installed_packages":
-    [
-    	"GitGutter",
-    	"Package Control",
-    	"SublimePythonIDE",
-    	"Markdown Preview",
-    ]
+	"word_wrap": true
 }
