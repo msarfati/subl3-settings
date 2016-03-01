@@ -1,18 +1,23 @@
 {
 	"color_scheme": "Packages/User/SolarSooty (SublimePythonIDE).tmTheme",
+	"font_size": 11,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Vintage"
 	],
 	"pep8_ignore":
 	[
 		"E128",
 		"E124",
-		"E501"
+		"E501",
+		"E731"
 	],
 	"pep8_max_line_length": 100,
 	"scroll_speed": 0.0,
-	"theme": "Soda Dark 3.sublime-theme",
+	"theme": "Freesia.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"word_wrap": true
+	"word_wrap": true,
+	"close_windows_when_empty": true,
+	"ensure_newline_at_eof_on_save": false
 }
